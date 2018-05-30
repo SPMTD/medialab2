@@ -5,6 +5,8 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var pkg = require('./package.json');
 var browserSync = require('browser-sync').create();
+require('coffee-script/register');
+require('./gulpfile.coffee');
 
 // Set the banner content
 var banner = ['/*!\n',

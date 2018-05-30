@@ -32,11 +32,40 @@
         "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {
+        "coffee-script": "~1.12.7",
         "browser-sync": "2.24.3",
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.4",
+        "gulp-bump": "~2.7",
+        "gulp-changed": "~3.1.0",
+        "gulp-clean": "~0.3.1",
+        "gulp-coffee": "~2.3.4",
+        "gulp-coffeelint": "~0.6.0",
+        "gulp-concat": "~2.6.1",
+        "gulp-connect": "~5.0.0",
+        "gulp-header": "~1.8.9",
+        "gulp-jasmine": "~2.4.2",
+        "gulp-less": "~3.3.2",
+        "gulp-load-plugins": "~1.5.0",
+        "gulp-open": "~2.0.0",
         "gulp-header": "2.0.5",
         "gulp-rename": "^1.2.2",
-        "gulp-sass": "4.0.1"
-    }
+        "gulp-sass": "4.0.1",
+        "gulp-uglify": "~3.0.0",
+        "gulp-util": "~3.0.0",
+        "karma": "~1.7.1",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-firefox-launcher": "^1.0.1",
+        "karma-jasmine": "~1.1.0",
+        "phantomjs": "^2.1.7",
+        "streamqueue": "1.1.1"
+    },
+      "engines": {
+        "node": ">= 0.8.0"
+      },
+      "main": "./build/js/bootstrap-tour.js",
+      "scripts": {
+        "build": "gulp dist",
+        "test": "gulp test"
+      }
 }
