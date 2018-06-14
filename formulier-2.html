@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Sander Pool">
 
     <title>Team 2x2</title>
 
@@ -97,7 +97,30 @@
                 <p style="font-weight: bold; font-size: 18px">Bewijsstukken</p>
                 <p>Beschikt u over <span style="font-weight: bold">een Begeleiderskaart code B</span>? Upload uw bestand hieronder.</p>
 
-                <button class="bewijsstuk-bestand"><img src="img/icons/uploadbestand.svg">Upload bestand</button>
+                <button class="bewijsstuk-bestand" id="bewijsstuk-bestand" type="file"><img src="img/icons/uploadbestand.svg">Upload bestand</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h3>Controleer het bestand</h3>
+                        <div class="tussenscheiding-1"></div>
+                        <p style="font-size: 18px;font-weight: bold; margin-left: -75%; margin-top: 34px;">Controleren</p>
+                        <div class="upgeload-bestand">
+                            <p style="margin-left: -77%; margin-top: 29px;">Bestandsnaam</p>
+                            <p style="margin-top: -5%; margin-right: -77%;">Verwijder</p>
+                            <div class="bestand" style="display: inline;">
+                                <p style=" margin-left: -53%; font-weight: normal;"><img style="margin-right: 10px;" src="img/icons/document.svg">Begeleiderskaart.mvrjansencodeb.pdf</p>
+                            </div>
+                            <img style="margin-right: -77%; margin-top: -9%;" src="img/icons/prullenbak.svg">                            
+                        </div>
+                        <a href="#" id="formulier-submit"><button class="formulier-submit">Dit bestand is juist <img style="margin-left: 30px; margin-right: -60px" src="img/icons/arrow rechts.svg"></button></a>
+                        <a  style="margin-left: 45px" href="#" id="formulier-redo"><button class="formulier-redo"><img style="margin-left: -50px; margin-right: 30px" src="img/icons/arrow links.svg">Opnieuw uploaden</button></a>
+                    </div>
+                    
+                </div>
 
                 <p style="font-weight: bold; font-size: 18px;">Machtiging</p>
 
