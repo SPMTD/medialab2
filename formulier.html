@@ -55,6 +55,14 @@
           <li class="progress-oval" id="progress-oval-5"><p>5</p></li>
           <li class="progress-oval" id="progress-oval-6"><p>6</p></li>
         </ul>
+        <!-- <ul class="progress-text">
+          <li class="progress-oval-text"><p>Persoonlijke<br>gegevens</p></li>
+          <li class="progress-oval-text"><p>Contactgegevens</p></li>
+          <li class="progress-oval-text"><p>Profielfoto</p></li>
+          <li class="progress-oval-text"><p>Automatisch<br>opladen</p></li>
+          <li class="progress-oval-text"><p>OV Plus</p></li>
+          <li class="progress-oval-text"><p>Controleren</p></li>
+        </ul> -->
       </div>
       
       <div class="informatie-vooraf">
@@ -62,7 +70,7 @@
         <p>Vraag hier uw persoonlijke OV - Chipkaart aan. U krijgt bij goedkeuring uw persoonlijke OV - Chipkaart binnen 14 werkdagen thuisgestuurd. Uw OV - Chipkaart kost €7,50 en is vijf jaar geldig.</p>
         <p style="font-weight: bold">Voor u begint heeft u de volgende items nodig:</p>
         <ul>
-          <li><p>Een goedgelijkende digitale foto (zónder snapchat filter) in jpg van maximaal 5 MB. Zie hier aan welke eisen je foto moet voldoen. </p></li>
+          <li><p>Een goedgelijkende digitale foto (zónder snapchat filter) in jpg van maximaal 5 MB. <a href="#">Zie hier aan welke eisen je foto moet voldoen.</a></p></li>
           <li><p>iDEAL</p></li>
           <li><p>PayPal (voor mensen met een adres buiten Nederland)</p></li>
         </ul>
@@ -73,10 +81,55 @@
       <div class="persoonlijke-gegevens">
         <div class="persoonlijke-gegevens-titel">
           <ul class="progress-ovals">
-            <li class="progress-oval" id="progress-oval-1" style="text-align: center;"><p>1</p></li>
-            <li><h3>Persoonlijke gegevens</h3></li>
+            <li class="progress-oval" id="progress-oval-1" style="text-align: center; height: 49px; width: 49px; line-height: 33px;"><p>1</p></li>
+            <li id="sub-title"><h3>Persoonlijke gegevens</h3></li>
           </ul>
         </div>
+
+        <p style="margin-left: 118px;">Geslacht</p>
+        <input type="button" class="geslacht-box" id="geslacht-box-m" style="background: transparent url(img/icons/man.svg) center no-repeat">
+        <input type="button" class="geslacht-box" id="geslacht-box-f" style="background: transparent url(img/icons/female.svg) center no-repeat">
+
+        <div class="form" id="persoonlijke-gegevens-form" style="display: block;">
+          <p style="margin-top: 30px;">Voorletter(s)</p>
+          <input type="text" id="persoonlijke-gegevens-form" name="first-letters">
+          <p style="margin-top: 30px;">Voornaam</p>
+          <input type="text" id="persoonlijke-gegevens-form" name="first-name">
+          <p style="margin-top: 30px;">Achternaam</p>
+          <input type="text" id="persoonlijke-gegevens-form" name="last-name">
+          <p style="margin-top: 30px;">Geboorte datum</p>
+          <input type="text" id="persoonlijke-gegevens-form" name="first-letters">
+          <p style="color: #9B9B9B">Bijv. 18-01-1994</p>
+          <p style="margin-top: 30px;">Burgerservicenummer</p>
+          <input type="number" id="persoonlijke-gegevens-form" name="burgerservicenummer">
+        </div>
+
+        <div class="beperking-keuze">
+          <p id="beperking-keuze-titel">Reizen met een beperking</p>
+          <div class="beperking-alert">
+            <div class="beperking-alert-item-1">
+              <img src="img/icons/Uitroepteken.svg">
+              </div>
+              <div class="beperking-alert-item-2">
+              <p>Let op: Om u zo goed mogelijk van dienst te kunnen zijn bij het aanvragen willen wij graag weten welke beperkingen u heeft,
+               zodat wij de vragen in de volgende stappen daarop af kunnen stemmen.</p>
+            </div>
+          </div>
+          <p style="margin-top: 30px;">Heeft u epilepsie? Of een visuele, verstandelijke, psychische of mobiliteitsbeperking?</p>
+          <div class="form" id="beperking-form">
+            <input type="checkbox" name="beperking-form-ja">
+            <label id="beperking-form-ja">Ja</label>
+            <br>
+            <input type="checkbox" name="beperking-form-nee">
+            <label id="beperking-form-nee">Nee</label>
+          </div>
+        </div>
+
+        <div class="tussenscheiding-1"></div>
+
+        <a href="formulier-2.html">
+          <button class="formulier-submit">Volgende <img src="img/icons/arrow rechts.svg"></button>
+        </a>
       </div>
     </div>
 

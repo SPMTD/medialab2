@@ -1,9 +1,15 @@
+input[type="text"]
+{
+    font-family: "Open Sans";
+    font-size:31px;
+}
+
 .navbario {
     width: 100vw;
 }
 
 .form-container {
-	height: 2232px;
+	height: 2282px;
 	width: 1010px;
 	background-color: #FFFFFF;
     box-shadow: 0 4px 11px 2px rgba(0,0,0,0.07);
@@ -51,15 +57,20 @@
     display: inline-block;
 }
 
-.progress-oval-text{
-    height: 54.9px;
-    width: 17.52px;
-    color: #FFFFFF;
+.progress-text {
+    margin-left: -90px;
+}
+
+.progress-oval-text {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    color: #E3147E;
     font-family: "Open Sans";
-    font-size: 21.6px;
+    font-size: 14;
     font-weight: bold;
     line-height: 29px;
-    display: block;
+    display: inline-block;
 }
 
 .informatie-vooraf {
@@ -101,6 +112,15 @@
 
 .persoonlijke-gegevens-titel{
     margin: 30px 72px 45px;
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+#sub-title {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
 }
 
 .persoonlijke-gegevens-titel h3 {
@@ -111,4 +131,114 @@
     font-size: 24px;	
     font-weight: bold;	
     line-height: 33px;
+    display: block;
+}
+
+.geslacht-box {
+	height: 126px;
+	width: 152.26px;
+	border: 1px solid #E3147E;
+	border-radius: 4px;
+    transition: border  linear .1s;
+    -webkit-transition: border linear .1s /* Safari */
+}
+
+#geslacht-box-m {
+    margin-left: 119px;
+}
+
+#geslacht-box-f {
+    margin-left: 37px;
+}
+
+.geslacht-box:hover {
+    cursor: pointer;
+    border: 3px solid #E3147E;
+}
+
+#persoonlijke-gegevens-form {
+    margin-left: 119px;
+}
+
+#persoonlijke-gegevens-form input {
+	height: 64px;
+    width: 673px;
+	border: 1px solid #9B9B9B;
+    background-color: #FFFFFF;
+    margin-left: 0;
+}
+
+.beperking-keuze {
+	height: 334px;
+    width: 690px;
+    margin: 30px 119px 52px;
+}
+
+#beperking-keuze-titel {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.beperking-keuze p {
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+
+.beperking-alert {
+	height: 122.66px;
+	width: 672.54px;
+	border-radius: 4px;
+    background-color: rgba(227,20,126,0.25);
+    display: inline-block;
+}
+
+.beperking-alert-item-1 {
+    margin: 15px 13px;
+    display: inline-block;
+}
+.beperking-alert-item-2 {
+    margin-left: 48px;
+    margin-right: 54px;
+    margin-top: -35px;
+}
+
+.beperking-alert p {
+    height: 90.3px;
+    width: 568.94px;
+	color: #000000;
+	font-family: "Open Sans";
+	font-size: 18px;
+    line-height: 29px;
+    display: inline;
+}
+
+#beperking-form {
+    margin-top: 15px;
+}
+
+#beperking-form input {
+	height: 16px;
+	width: 16px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+
+}
+
+.formulier-submit {
+    float: right;
+    margin-top: 32px;
+    margin-right: 98px;
+    margin-bottom: 35px;
+	height: 64px;
+	width: 312px;
+	border: 2.5px solid #E3147E;
+    border-radius: 4px;
+    color: #E3147E;	font-family: "Open Sans";	font-size: 20px;	font-weight: bold;	line-height: 27px;	text-align: center;
+    cursor: pointer;
+}
+
+.formulier-submit img {
+    margin-left: 70px;
+    margin-right: -90px;
 }
