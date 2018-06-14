@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <div class="form-container" id="form-container">
+    <div class="form-container" id="form-container" style="height: 1657px;">
       <div class="progress-bar">
         <ul class="progress-ovals">
           <li class="progress-oval" id="progress-oval-1"><p>1</p></li>
@@ -74,14 +74,42 @@
       <div class="persoonlijke-gegevens">
         <div class="persoonlijke-gegevens-titel">
           <ul class="progress-ovals">
-            <li class="progress-oval" id="progress-oval-1" style="text-align: center; height: 49px; width: 49px; line-height: 33px;"><p>1</p></li>
+            <li class="progress-oval" id="progress-oval-1" style="text-align: center; height: 49px; width: 49px;"><p>5</p></li>
             <li id="sub-title"><h3>Aanvragen OV Plus, Begeleiderskaart of Sentire</h3></li>
           </ul>
+
+            <div class="beperking-alert" style="margin-left: 40px">
+                <div class="beperking-alert-item-1">
+                  <img src="img/icons/Uitroepteken.svg">
+                  </div>
+                  <div class="beperking-alert-item-2">
+                  <p>Let op: meerdere keuzes zijn mogelijk. Om hier voor in aanmerking te komen moet u in het bezit zijn van een begeleiderskaart. Heeft u deze niet? Dan kun u ook de optie aanvinken om nu een begeleiderskaart aan te vragen. </p>
+                </div>
+            </div>
+
+            <div class="cart-boxes-wrapper">
+                <button class="cart-box" id="cart-box-ovplus">Ik wil een OV Plus kaart</button>
+                <button class="cart-box" id="cart-box-sentire">Ik wil een Sentire reisproduct</button>
+                <button class="cart-box" id="cart-box-begeleiderskaart">Ik wil een begeleiderskaart</button>
+            </div>
+
+            <div class="bewijsstukken-wrapper">
+                <p style="font-weight: bold; font-size: 18px">Bewijsstukken</p>
+                <p>Beschikt u over <span style="font-weight: bold">een Begeleiderskaart code B</span>? Upload uw bestand hieronder.</p>
+
+                <button class="bewijsstuk-bestand"><img src="img/icons/uploadbestand.svg">Upload bestand</button>
+
+                <p style="font-weight: bold; font-size: 18px;">Machtiging</p>
+
+                <input type="checkbox" name="toestemming" style="margin-top: 30px">
+                <label style="display: inline; font-size:18px;">Ik geef toestemming dat Translink mijn gegevens mag doorspelen naar de Nederlandse Spoorwegen, Connexion, bedrijf 2, bedrijf 3 om voor mij de eerder genoemde keuzes te regelen, zodat ik hier zelf minder voor hoef te regelen.</label>
+            </div>
+            
         </div>
 
         <div class="tussenscheiding-1" id="tussenscheiding-2"></div>
 
-        <a href="formulier-2.html" id="formulier-submit">
+        <a href="formulier-3.html" id="formulier-submit">
           <button class="formulier-submit">Volgende <img src="img/icons/arrow rechts.svg"></button>
         </a>
       </div>
