@@ -1,0 +1,114 @@
+.navbario {
+    width: 100vw;
+}
+
+.form-container {
+	height: 2232px;
+	width: 1010px;
+	background-color: #FFFFFF;
+    box-shadow: 0 4px 11px 2px rgba(0,0,0,0.07);
+    margin: 20px 195px 102px
+}
+
+.progress-bar {
+	height: 116px;
+    width: 847px;
+    margin: 57px 50px 0px;
+    background-color: #FFFFFF;
+    display: block;
+}
+
+.progress-ovals{
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+#progress-oval-1 {
+	height: 56.7px;
+    width: 56.7px;
+    border-radius: 100%;
+    background-color: #E3147E;
+    display: inline-block;
+}
+
+#progress-oval-1 p {
+    color: #FFFFFF;	font-family: "Open Sans";	font-size: 21.6px;	font-weight: bold;	line-height: 50px;
+    display: inline-block;
+}
+
+.progress-oval {
+    border-radius: 100%;
+	box-sizing: border-box;
+	height: 56.7px;
+	width: 56.7px;
+    border: 4.5px solid rgba(227,20,126,0.14);
+    display: inline-block;
+    margin: 55.5px 40px 10px;
+}
+
+.progress-oval p {
+    font-family: "Open Sans";	font-size: 21.6px; color: rgba(227,20,126,0.14);	font-weight: bold;	line-height: 50px;
+    display: inline-block;
+}
+
+.progress-oval-text{
+    height: 54.9px;
+    width: 17.52px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 21.6px;
+    font-weight: bold;
+    line-height: 29px;
+    display: block;
+}
+
+.informatie-vooraf {
+	height: 396px;
+    width: 758px;
+    margin: 50px 116px 67px;
+}
+
+.informatie-vooraf h3 {
+	height: 59px;
+	width: 702px;
+	color: #E3147E;
+	font-family: "Open Sans";
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 49px;
+}
+
+.informatie-vooraf p {
+	width: 698px;
+	color: #000000;
+	font-family: "Open Sans";
+	font-size: 20px;
+	line-height: 31px;
+}
+
+.informatie-vooraf ul {
+    height: 171px;
+    overflow: hidden;
+}
+
+.tussenscheiding-1 {
+	box-sizing: border-box;
+    height: 3px;
+    margin: 0 5% 0;
+	width: 90%;
+	border: 2px solid #979797;
+}
+
+.persoonlijke-gegevens-titel{
+    margin: 30px 72px 45px;
+}
+
+.persoonlijke-gegevens-titel h3 {
+    height: 61px;
+    width: 668px;	
+    color: #E3147E;	
+    font-family: "Open Sans";	
+    font-size: 24px;	
+    font-weight: bold;	
+    line-height: 33px;
+}
