@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <div class="form-container">
+    <div class="form-container" id="form-container">
       <div class="progress-bar">
         <ul class="progress-ovals">
           <li class="progress-oval" id="progress-oval-1"><p>1</p></li>
@@ -97,7 +97,7 @@
           <input type="text" id="persoonlijke-gegevens-form" name="first-name">
           <p style="margin-top: 30px;">Achternaam</p>
           <input type="text" id="persoonlijke-gegevens-form" name="last-name">
-          <p style="margin-top: 30px;">Geboorte datum</p>
+          <p style="margin-top: 30px;">Geboortedatum</p>
           <input type="text" id="persoonlijke-gegevens-form" name="first-letters">
           <p style="color: #9B9B9B">Bijv. 18-01-1994</p>
           <p style="margin-top: 30px;">Burgerservicenummer</p>
@@ -117,17 +117,40 @@
           </div>
           <p style="margin-top: 30px;">Heeft u epilepsie? Of een visuele, verstandelijke, psychische of mobiliteitsbeperking?</p>
           <div class="form" id="beperking-form">
-            <input type="checkbox" name="beperking-form-ja">
+            <input type="checkbox" id="checkbox-ja" name="beperking-form-ja">
             <label id="beperking-form-ja">Ja</label>
             <br>
-            <input type="checkbox" name="beperking-form-nee">
+            <input type="checkbox" id="checkbox-nee" name="beperking-form-nee">
             <label id="beperking-form-nee">Nee</label>
+          </div>
+
+          <div class="form" id="beperking-form-extra">
+            <p style="margin-top: 30px;">Welke beperking heeft u?</p>
+            <div class="beperking-form-extra-alert">
+              <img class="beperking-form-extra-alert-item-1" src="img/icons/Uitroepteken.svg">
+              <p class="beperking-form-extra-alert-item-2">Let op: Er zijn meerdere opties mogelijk. Vul deze correct in. </p>
+            </div>
+            <br>
+            <input type="checkbox" name="Mobiliteitsbeperking" style="margin-top: 30px">
+            <label>Mobiliteitsbeperking</label>
+            <br>
+            <input type="checkbox" name="Epilepsie">
+            <label>Epilepsie</label>
+            <br>
+            <input type="checkbox" name="Visuele beperking">
+            <label>Visuele beperking</label>
+            <br>
+            <input type="checkbox" name="Verstandelijke beperking">
+            <label>Verstandelijke beperking</label>
+            <br>
+            <input type="checkbox" name="Psychische beperking">
+            <label>Psychische beperking</label>
           </div>
         </div>
 
-        <div class="tussenscheiding-1"></div>
+        <div class="tussenscheiding-1" id="tussenscheiding-2"></div>
 
-        <a href="formulier-2.html">
+        <a href="formulier-2.html" id="formulier-submit">
           <button class="formulier-submit">Volgende <img src="img/icons/arrow rechts.svg"></button>
         </a>
       </div>
@@ -136,9 +159,9 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="build/js/bootstrap-tour.min.js"></script>
-    <script src="js/main.js"></script>
 
   </body>
 

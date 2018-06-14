@@ -1,16 +1,17 @@
-var tour = new tour({
-    steps: [ 
-        {
-            element: "#tourtest",
-            title: "Tutorial voorbeeld",
-            content: "T is bizar maar hij doet t gewoon"
-        }
-    ]
+$(document).ready(function() {
+    $("#beperking-form-extra").hide();
+
+    $("#checkbox-ja").click(function(){
+        $("#beperking-form-extra").show();
+
+        $("#form-container").css("height", "2510px");
+        $("#tussenscheiding-2").css("margin-top", "300px");
+    });
+
+    $("#checkbox-nee").click(function(){
+        $("#beperking-form-extra").hide();
+
+        $("#form-container").css("height", "2282px");
+        $("#tussenscheiding-2").css("margin-top", "0");
+    })
 });
-
-// Initialize the tour
-tour.init();
-
-// Start the tour
-tour.start();
-

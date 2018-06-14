@@ -4,6 +4,19 @@ input[type="text"]
     font-size:31px;
 }
 
+.pagina-titel {
+    margin: 50px 116px 55px;
+}
+
+.pagina-titel h3 {
+	height: 59px;
+	color: #E3147E;
+	font-family: "Open Sans";
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 49px;
+}
+
 .navbario {
     width: 100vw;
 }
@@ -13,7 +26,7 @@ input[type="text"]
 	width: 1010px;
 	background-color: #FFFFFF;
     box-shadow: 0 4px 11px 2px rgba(0,0,0,0.07);
-    margin: 20px 195px 102px
+    margin: 20px 210px 102px
 }
 
 .progress-bar {
@@ -223,6 +236,30 @@ input[type="text"]
 	border-radius: 2px;
 	background-color: #FFFFFF;
 
+}
+
+.beperking-form-extra {
+    /* display: hidden; */
+    display: block;
+}
+
+.beperking-form-extra-alert {
+    height: 55.2px;
+	width: 667.85px;
+	border-radius: 4px;
+    background-color: rgba(227,20,126,0.25);
+    display: inline-block;
+}
+
+.beperking-form-extra-alert-item-1 {
+    margin-left: 13px;
+    display: inline-block;
+}
+
+.beperking-form-extra-alert-item-2 {
+    margin-top: 14.5px;
+    margin-left: 15px;
+    display: inline-block;
 }
 
 .formulier-submit {
